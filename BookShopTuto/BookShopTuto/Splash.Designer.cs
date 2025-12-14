@@ -1,4 +1,5 @@
 ﻿
+
 namespace BookShopTuto
 {
     partial class Splash
@@ -47,7 +48,7 @@ namespace BookShopTuto
             label1.Size = new Size(151, 30);
             label1.TabIndex = 0;
             label1.Text = "书店管理系统";
-            label1.Click += this.label1_Click;
+         
             // 
             // pictureBox1
             // 
@@ -87,7 +88,7 @@ namespace BookShopTuto
             label4.Size = new Size(22, 23);
             label4.TabIndex = 5;
             label4.Text = "%";
-            label4.Click += this.label4_Click;
+ 
             // 
             // Splash
             // 
@@ -117,7 +118,6 @@ namespace BookShopTuto
         private ProgressBar progressBar1;
         private Label label2;
         private Label label4;
-        private EventHandler label1_Click;
-        private EventHandler label4_Click;
+     
     }
 }

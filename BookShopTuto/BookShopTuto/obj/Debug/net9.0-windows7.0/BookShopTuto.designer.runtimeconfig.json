@@ -1,6 +1,16 @@
 {
   "runtimeOptions": {
-    "tfm": "net10.0",
+    "tfm": "net9.0",
+    "frameworks": [
+      {
+        "name": "Microsoft.NETCore.App",
+        "version": "9.0.0"
+      },
+      {
+        "name": "Microsoft.WindowsDesktop.App",
+        "version": "9.0.0"
+      }
+    ],
     "additionalProbingPaths": [
       "C:\\Users\\g.ww\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\g.ww\\.nuget\\packages",
